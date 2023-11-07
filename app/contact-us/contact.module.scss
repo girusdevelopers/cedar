@@ -1,0 +1,267 @@
+.main-page {
+  width: 100%;
+  display: flex;
+}
+.container{
+  background-color: #fbfbf9;
+  margin : 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+.left {
+  flex: 1;
+  width: 50%;
+  justify-content: center;
+    // background-color: gray;
+}
+
+.form-heading{
+
+padding: 15px; 
+max-width: 500px;
+
+}
+
+
+.form{
+    padding: 25px;
+    max-width: 600px;
+    // border: 2px solid gray;
+}
+
+// .input{
+//   border:1px solid gray;
+// }
+
+.name-number {
+
+   display: flex;
+  //  align-items: center;
+  //  justify-content: space-between;
+   gap: 10px;
+  
+}
+
+.row{
+  flex: 1;
+}
+
+
+
+.name {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border : 1px solid gray;
+
+}
+
+.email {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+.project{
+  flex: 1;
+}
+
+.text-area {
+  width:100%;
+  font-size: 16px;
+  resize: vertical;
+  min-height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+.button{
+  color: white;
+  background-color: #bfa47e;
+  padding: 20px;
+
+}
+.button:hover{
+  background-color: black;
+}
+
+.right {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://assets.website-files.com/649ad19c333ca425c47643bb/64a2e25776f59d0ab9d4c9c9_Contact%20Image.webp");
+  background-position: center;
+  background-origin: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.white-box{
+    width: 70%;
+    max-width: 300px;
+    // height: 80%;
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.box-heading{
+    font-size: 25px;
+
+    
+}
+
+.box-social{
+    display: flex;
+ 
+}
+
+.box-social a{
+    color: black; 
+   
+
+}
+.box-social a :hover{
+    color: gray; 
+   
+
+}
+
+@media only screen and (max-width:768px){
+  .main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    background-color: #fbfbf9;
+    margin : 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+  }
+  .left {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    //   background-color: gray;
+  }
+
+  .form-heading{
+
+    padding: 15px; 
+    max-width: 500px;
+
+  }
+
+
+  .contact {
+    font-weight: 700;
+    // padding: 15px;
+  }
+  .contact1 {
+    // padding: 15px;
+    font-weight: 400;
+  }
+  
+  
+  .form{
+      padding: 25px;
+      max-width: 500px;
+  }
+  
+  .name-number {
+  
+     display: flex;
+     flex-direction: column;
+    //  align-items: center;
+    //  justify-content: space-between;
+    //  gap: 10px;
+  
+    
+  }
+  .name {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .text-area {
+    width:100%;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .button{
+    color: white;
+    background-color: #bfa47e;
+    padding: 20px;
+  
+  }
+  .button:hover{
+    background-color: black;
+  }
+  
+  .right {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://assets.website-files.com/649ad19c333ca425c47643bb/64a2e25776f59d0ab9d4c9c9_Contact%20Image.webp");
+    background-position: center;
+    background-origin: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .white-box{
+    width: 70%;
+    max-width: 300px;
+    // height: 80%;
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+
+}
+  
+  .box-heading{
+      font-size: 20px;
+  
+      
+  }
+  
+  .box-social{
+      display: flex;
+   
+  }
+  
+  .box-social a{
+      color: black; 
+     
+  
+  }
+  .box-social a :hover{
+      color: gray;
+
+}
+}

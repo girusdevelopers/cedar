@@ -1,0 +1,100 @@
+.container{
+  padding-bottom: 140px;
+}
+
+.banner {
+  background-color: #f5fbfc;
+  // min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.heading {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.main-text {
+  max-width: 450px;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.main-text h4 {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+.header{
+    font-weight: 500;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-mater {
+  padding: 1.5rem 0;
+  justify-content: center;
+  border-bottom: 2px solid #eee;
+  cursor: pointer;
+  user-select: none;
+}
+
+.matter {
+  overflow: hidden;
+  
+ line-height: 1.4;
+ color: #555;
+ font-size: .9rem;
+ font-family: 'Inter';
+}
+
+//
+.faq-list {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+@media only screen and (max-width:480px){
+
+  .heading{
+    font-size: 25px;
+  }
+
+  .faq-list{
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width:768px){
+
+  .heading{
+    font-size: 35px;
+  }
+
+  .faq-list{
+    padding: 35px;
+  }
+}
+
+@media only screen and (min-width:768px){
+
+  .heading{
+    font-size: 45px;
+  }
+
+  .faq-list{
+    padding: 35px;
+  }
+}
